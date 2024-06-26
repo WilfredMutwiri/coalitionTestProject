@@ -1361,6 +1361,10 @@ input[type="range"]::-ms-fill-lower {
   margin-top: 1.5rem;
 }
 
+.ml-4 {
+  margin-left: 1rem;
+}
+
 .block {
   display: block;
 }
@@ -2779,6 +2783,11 @@ input[type="range"]::-ms-fill-lower {
      object-fit: cover;
 }
 
+.object-fill {
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
 .p-0 {
   padding: 0px;
 }
@@ -2801,6 +2810,10 @@ input[type="range"]::-ms-fill-lower {
 
 .p-2\.5 {
   padding: 0.625rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
 }
 
 .p-4 {
@@ -3575,6 +3588,24 @@ input[type="range"]::-ms-fill-lower {
 
 .\[scrollbar-width\:none\] {
   scrollbar-width: none;
+}
+
+.navLi {
+  display: flex;
+  cursor: pointer;
+  gap: 0.5rem;
+  border-radius: 9999px;
+  padding: 0.5rem;
+}
+
+.navLi:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 211 238 / var(--tw-bg-opacity));
+}
+
+.navLiIcons {
+  height: 1.25rem;
+  width: 1.25rem;
 }
 
 .after\:absolute::after {

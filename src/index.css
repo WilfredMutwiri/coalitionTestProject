@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.navLi{
+    @apply flex gap-2 p-2 rounded-full hover:bg-cyan-400 cursor-pointer
+}
+.navLiIcons{
+    @apply w-5 h-5
+}

@@ -12,7 +12,7 @@ import { CiMenuKebab } from "react-icons/ci";
 export default function NavBar() {
   return (
     <div className='bg-gray-100 w-full p-3'>
-        <div className='bg-gray-50 p-2 flex justify-between rounded-full'>
+        <div className='bg-white p-2 flex justify-between rounded-full'>
             <div>
                 <img className='h-10' src={logo} alt='Testlogo'/>
             </div>

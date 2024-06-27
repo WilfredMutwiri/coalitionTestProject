@@ -1,0 +1,22 @@
+export const chartData={
+labels:[
+    "Oct,2023",
+    "Nov,2023",
+    "Dec,2023",
+    "Jan,2024",
+    "Feb,2024",
+    "Mar,2024",
+],
+datasets:[
+    {
+        label:"Systolic",
+        data:[120,117,160,115,150,160,],
+        borderColor:"pink",
+    },
+    {
+        label:"Diastolic",
+        data:[115,60,110,90,72,79,],
+        borderColor:"purple",
+    }
+]
+}

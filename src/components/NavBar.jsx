@@ -46,7 +46,7 @@ export default function NavBar() {
                     Dr.Jose Simmons<br/>
                     <span className='font-normal text-sm'>General Practitioner</span>
                 </h2>
-                <div className='flex ml-4 p-2 mt-2'>
+                <div className='flex p-2 mt-2'>
                     <IoSettingsOutline className='navLiIcons'/>
                     <CiMenuKebab className='navLiIcons'/>
                 </div>

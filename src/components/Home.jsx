@@ -5,6 +5,7 @@ import Chartgraph from './ChartGraph';
 import respiratoryImg from '../images/respiratory rate.svg'
 import heartImg from '../images/HeartBPM.svg'
 import tempImg from '../images/temperature.svg'
+import PatientProfile from './PatientProfile';
 export default function Home() {
   return (
     // main home div
@@ -24,7 +25,7 @@ export default function Home() {
         {/* diagnosis section */}
         <section>
         <div className='bg-white p-3 rounded-md'>
-            <div className=' w-[200px]'>
+            <div className=' w-auto'>
             <h2 className='p-4 font-semibold'>Diagnosis History</h2>
         </div>
         {/* chart section */}
@@ -54,10 +55,10 @@ export default function Home() {
         </div>
         </div>
         {/* list section */}
-        <div className='bg-white mt-6 rounded-md p-3'>
-            <h2 className='text-lg font-semibold'>Diagnostic List</h2>
+        <div className='bg-white mt-6 rounded-md w-auto'>
+            <h2 className='text-lg font-semibold p-3'>Diagnostic List</h2>
             <div className=''>
-                <div className='bg-gray-100 rounded-full w-full p-4 mt-4'>
+                <div className='bg-gray-100 rounded-full w-full p-4 mt-2 mb-2'>
                     <ul className='flex justify-between font-semibold'>
                         <li>Problem/Diagnosis</li>
                         <li>Description</li>
@@ -97,11 +98,12 @@ export default function Home() {
             </div>
         </div>
         </section>
-        <div className=' bg-white w-[280px]'>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto vel perspiciatis porro optio exercitationem aspernatur laboriosam earum minus labore atque?
-            </p>
+        {/* patient profile section */}
+        <section>
+        <div className=' w-[280px]'>
+            <PatientProfile/>
         </div>
+        </section>
     </div>
     </div>
   )

@@ -45,9 +45,11 @@ export default function ChartGraph() {
     }
   };
   return( 
-  <div className='bg-gray-100 mx-auto p-3 rounded-md flex'>
-      <Line options={options} data={chartData}/>
-      <div className='w-32 flex flex-col gap-2'>
+  <div className='bg-gray-100 mx-auto rounded-md flex w-auto p-3'>
+    <div className='w-10/12'>
+    <Line options={options} data={chartData}/>
+    </div>
+      <div className='w-auto flex flex-col gap-2 pl-2'>
         <div>
           <h2 className='text-sm'>Systolic</h2>
           <h1 className='font-semibold'>160</h1>
